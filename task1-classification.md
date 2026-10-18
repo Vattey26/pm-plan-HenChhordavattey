@@ -1,0 +1,24 @@
+
+# Task 1: project, operation or programme?
+
+| #   | Initiative                                                                                                 | Temporary? | Unique? | Coordinated? | Class     | Justification                                                                                                            |
+| --- | ---------------------------------------------------------------------------------------------------------- | ---------- | ------- | ------------ | --------- | ------------------------------------------------------------------------------------------------------------------------ |
+| 1   | Build the Realtime Quiz platform and pilot it with 50 students in week 14                                  | yes        | yes     | no           | Project   | It ends with the week-14 pilot and delivers a platform that did not exist before; it is one endeavour, not several.      |
+| 2   | Run the nightly backup of the gititc.com PostgreSQL                                                        | no         | no      | no           | Operation | It repeats every night with the same output and no end date; it keeps the service running.                               |
+| 3   | Move the department's three web servers to a new Linode region before 15 December                          | yes        | yes     | no           | Project   | It has a hard deadline (15 December) and produces a new hosting arrangement once; noting repeats afterwards.             |
+| 4   | Answer helpdesk tickets within the 4-hour service lvel                                                     | no         | no      | no           | Operation | It is a continuous service measured by a standing 4-hour target, with no end date.                                       |
+| 5   | "Digital Classroom": Realtime Quiz, LMS upgrade and lecture capture sharing one login and one grade export | yes        | yes     | yes          | Programme | Three related projects; the shared login and grade export are a benefit that none delivers alone.                        |
+| 6   | Apple the monthly security patches to the VPS                                                              | no         | no      | no           | Operation | It repeats every moth with the same procedure and never ends while the VPS exists.                                       |
+| 7   | Add multi-node scaling (RabbitMQ relay, Redis registry) to Realtime Quiz next semester                     | yes        | yes     | no           | Project   | It has an end (next semester) and delivers a new capability, so it is a new project rather than maintenance.             |
+| 8   | Operate the Realtime Quiz platform after go-live: password resets, restarts, monitoring                    | no         | no      | no           | Operatoin | It repeats daily after week 14 with no end date; it is ongoing service of a finished products.                           |
+| 9   | Write and publish the department's annual IT report for the dean by 31 January                             | yes        | yes     | no           | Project   | Each edition has a deadline (31 January) and new content, so one report is a small project even though it recurs yearly. |
+| 10  | Replace 40 wireless access points in two building during the summer break                                  | yes        | yes     | no           | Project   | It is limited to the summer break and ends when the 40 access point work; it is a one-time change.                       |
+
+## Grey zones
+
+- **Row 7 (multi-node scaling):** it could be seen as a maintenance release of the existing product (operation) or as a new project. It would be settled whether the sponsor funds it separately with its own budget and end date; if yes, it is a project.
+- **Row 9 (annual IT report):** it is annual and repetitive (operation-like), yet each edition has a deadline and new content (project-like). It would be settle by whether "done" is defined per edition with a named owner and effort budget; if yes, treat it as a small yearly project.
+
+## What our project hands over
+
+At go-live in week 14, IT operations (the VPS administrator) takes over running the platform on gictic.com, so the team must hand over a runbook, the production Docker Compose file, the environment-variable list (without secrets) and a working backup job. The helpdesk takes over password resets and user questions, so it needs a short FAQ and the list of known issues. The supervising lecturer and the instructors take over the quizzes and sessions, so they need a user guide and a names contact for defects after the pilot.

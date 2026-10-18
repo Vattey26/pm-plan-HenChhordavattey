@@ -1,0 +1,12 @@
+id,name_or_group,role,category,interest,influence,interest_level,expectation
+S01,Head of the IT department,Sponsor,sponsor,a reusable quiz tool that saves marking time and shows the department innovates,H,H,MVP demo in week 7 and a pilot with 50 students in week 14 within 200 USD cash.
+S02,"[Name], supervising lecturer",Project manager (supervising lecturer),pm,a delivered pilot and a team that learns project management,H,H,"The sponsor signs the charter in week 1, attends the week-7 and week-13 gates and answers change requests within 5 working days."
+S03,Student team (4),"Developers and testers (backend, real-time, frontend, QA/DevOps)",team,a working portfolio project and a good grade; QA/DevOps also wants a stable pipeline,M,H,"A clear scope, an 8 h/week budget per person and a PM who removes blockers within a week."
+S04,Pilot students (50),End users,user,"joining quickly and seeing fair, instant feedback",L,M,To join with a 6-character code and see scores and the leaderboard within 500 ms in the week-14 pilot.
+S05,Lecturers who run quizzes,Instructors (users),user,less marking time and simple quiz authoring,M,H,A quiz-authoring screen and a live session they can run after a 30-minute introduction before the pilot.
+S06,IT operations (VPS admin),Runs gicitc.com hosting and backups,operations,no surprises at go-live; a runbook and a backup job,M,M,A deployment checklist and the docker-compose.prod.yml two weeks before the pilot.
+S07,Campus network administrator,Controls the campus proxy and firewall,operations,WebSocket traffic that is understood and secure,M,L,A one-page description of ports and WebSocket use by week 8 so the proxy test can run before the week-12 load test.
+S08,Software Engineering lecturer,Owns the capstone and its assessment,governance,capstone learning outcomes met and fair individual grading,M,M,Weekly evidence of each student's contribution and the final documentation and demo.
+S09,Data protection officer / registrar,Approves storage of student data,governance,student names and results stored on campus with a retention rule,H,L,A one-page data description before the pilot; can block the pilot.
+S10,Dean / faculty management,Decides adoption next semester,external,a proven tool at low cost for the faculty,H,L,"A pilot report in week 14 with participation numbers, defects and cost."
+S11,Quiz SaaS vendor (Kahoot-like),Alternative supplier (option B),external,selling licences to the department,L,L,A request for education pricing if the week-7 gate sends the project to option B.
